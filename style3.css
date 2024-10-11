@@ -1,0 +1,95 @@
+/* Root: Define theme variables */
+:root {
+    --primary-bg-color: #f4f4f4;
+    --primary-text-color: #333;
+    --primary-accent-color: #007bff;
+    --header-bg-color: #333;
+    --header-text-color: #fff;
+    --footer-bg-color: #333;
+    --footer-text-color: #fff;
+    --link-hover-bg: #555;
+    --button-bg-color: #333;
+    --button-text-color: #fff;
+    --button-hover-bg: #555;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--header-bg-color);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--header-text-color);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--link-hover-bg);
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Post Meta Data */
+.post-meta {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.back-home:hover {
+    background-color: var(--button-hover-bg);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
